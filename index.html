@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Data India Private Limited</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #004aad;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e9ecef;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    .skills, .services {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .skills h2, .services h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #004aad;
+    }
+    .skills-grid, .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    footer {
+      background: #004aad;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo1.png" alt="Flex Data Logo">
+    <nav>
+      <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Flex Data India Private Limited</h1>
+    <p>Empowering businesses with Data Science, AI, Cloud, and Web Solutions</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Our Expertise</h2>
+    <div class="skills-grid">
+      <div class="card">HTML – 100%</div>
+      <div class="card">CSS – 90%</div>
+      <div class="card">JavaScript – 75%</div>
+      <div class="card">PHP – 80%</div>
+      <div class="card">WordPress/CMS – 90%</div>
+      <div class="card">Photoshop – 55%</div>
+      <div class="card">Python – 100%</div>
+      <div class="card">Data Science – 100%</div>
+      <div class="card">Machine Learning – 90%</div>
+      <div class="card">Azure – 95%</div>
+      <div class="card">AWS – 90%</div>
+      <div class="card">GCP – 90%</div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="card">Web Design & Development</div>
+      <div class="card">Cloud Solutions (Azure, AWS, GCP)</div>
+      <div class="card">Machine Learning Development</div>
+      <div class="card">Artificial Intelligence</div>
+      <div class="card">Business Intelligence Solutions</div>
+      <div class="card">Product Management & Marketing</div>
+    </div>
+  </section>
+
+  <section id="contact" class="services">
+    <h2>Contact Us</h2>
+    <div class="services-grid">
+      <div class="card">
+        <h3>India Office</h3>
+        <p>Plot.No-146&147, Nagaram<br>Hyderabad, Telangana, 500083</p>
+        <p>Phone: +91 77-99143143</p>
+        <p>Email: info@flex-data.co.in</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Flex Data India Private Limited. All rights reserved.
+  </footer>
+
+</body>
+</html>
